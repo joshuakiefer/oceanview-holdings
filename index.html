@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oceanview Holdings</title>
+  <meta name="description" content="Oceanview Holdings is a private holding company that owns and invests in businesses across technology, finance, and media.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Oceanview Holdings">
+  <meta property="og:description" content="A private holding company that owns and invests in businesses.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,600,700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm0 4c5.523 0 10 4.477 10 10 0 1.8-.474 3.49-1.304 4.95C22.2 17.6 18.5 15.4 16 15.4s-6.2 2.2-8.696 5.55A9.953 9.953 0 0 1 6 16c0-5.523 4.477-10 10-10z' fill='%234da8b3'/%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="header__logo" aria-label="Oceanview Holdings home">
+        <svg class="header__logo-mark" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+          <circle cx="18" cy="18" r="16" stroke="currentColor" stroke-width="1.5" opacity="0.2"/>
+          <path d="M6 20c3-4 6.5-6 12-6s9 2 12 6" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" fill="none"/>
+          <path d="M6 24c3-4 6.5-6 12-6s9 2 12 6" stroke="var(--color-primary)" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+          <circle cx="18" cy="12" r="3" fill="var(--color-primary)" opacity="0.7"/>
+        </svg>
+        <span class="header__logo-text">Oceanview Holdings</span>
+      </a>
+
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.header__nav').classList.toggle('open')">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+
+      <nav class="header__nav">
+        <a href="#about">About</a>
+        <a href="#focus">Focus</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" data-theme-toggle aria-label="Switch to light mode">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero section">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__content">
+      <span class="hero__label reveal">Private Holding Company</span>
+      <h1 class="hero__title reveal">Building Enduring<br>Value Across Industries</h1>
+      <p class="hero__subtitle reveal">Oceanview Holdings is a private holding company that owns, operates, and invests in businesses with long-term potential across technology, finance, and media.</p>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container about__grid">
+      <div class="reveal">
+        <h2 class="about__heading">Our Philosophy</h2>
+      </div>
+      <div class="about__body reveal">
+        <p>Oceanview Holdings takes a patient, hands-on approach to building and acquiring companies. We focus on businesses with strong fundamentals, scalable operations, and the ability to compound value over decades.</p>
+        <p>Rather than pursuing short-term returns, we build infrastructure, teams, and systems that create lasting competitive advantages. Our portfolio spans technology platforms, financial services, and digital media properties.</p>
+        <p>Founded and led by Joshua Kiefer, Oceanview operates from Las Vegas, Nevada with a lean, founder-driven model that prioritizes execution and long-term thinking.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Focus Areas -->
+  <section id="focus" class="section">
+    <div class="container">
+      <h2 class="focus__heading reveal">Areas of Focus</h2>
+      <div class="focus__grid">
+
+        <div class="focus__card reveal">
+          <svg class="focus__card-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="5" y="8" width="30" height="24" rx="3"/>
+            <path d="M14 20l4 4 8-8"/>
+          </svg>
+          <h3 class="focus__card-title">Technology</h3>
+          <p class="focus__card-desc">Software platforms, SaaS products, and AI-powered tools that serve underserved markets with scalable solutions.</p>
+        </div>
+
+        <div class="focus__card reveal">
+          <svg class="focus__card-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 5v30M12 12l8-7 8 7M8 22h24M10 30h20"/>
+            <circle cx="20" cy="22" r="4"/>
+          </svg>
+          <h3 class="focus__card-title">Financial Services</h3>
+          <p class="focus__card-desc">Bookkeeping, accounting, and fintech businesses that help companies build financial clarity and operational confidence.</p>
+        </div>
+
+        <div class="focus__card reveal">
+          <svg class="focus__card-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="6" y="6" width="28" height="20" rx="3"/>
+            <path d="M6 30h28M16 26v4M24 26v4"/>
+            <path d="M15 16l4-4 3 3 5-5"/>
+          </svg>
+          <h3 class="focus__card-title">Digital Media</h3>
+          <p class="focus__card-desc">Content brands, educational platforms, and media properties that inform, educate, and build engaged audiences at scale.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats section">
+    <div class="container stats__grid reveal">
+      <div>
+        <div class="stats__number">Multiple</div>
+        <div class="stats__label">Portfolio Companies</div>
+      </div>
+      <div>
+        <div class="stats__number">Las Vegas, NV</div>
+        <div class="stats__label">Headquarters</div>
+      </div>
+      <div>
+        <div class="stats__number">Long-Term</div>
+        <div class="stats__label">Investment Horizon</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container contact__inner reveal">
+      <h2 class="contact__heading">Get in Touch</h2>
+      <p class="contact__body">Interested in working together or learning more about Oceanview Holdings? We'd love to hear from you.</p>
+      <div class="contact__links">
+        <a href="mailto:josh@scalablebookkeeping.co" class="contact__link" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M22 4L12 13 2 4"/>
+          </svg>
+          Email
+        </a>
+        <a href="https://www.linkedin.com/in/joshuakiefer" class="contact__link" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <span class="footer__text">&copy; 2026 Oceanview Holdings. All rights reserved.</span>
+      <span class="footer__right">Las Vegas, Nevada</span>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Theme toggle
+    (function(){
+      const t = document.querySelector('[data-theme-toggle]');
+      const r = document.documentElement;
+      let d = 'dark'; // Default to dark
+      r.setAttribute('data-theme', d);
+
+      function updateIcon() {
+        if (!t) return;
+        t.setAttribute('aria-label', 'Switch to ' + (d === 'dark' ? 'light' : 'dark') + ' mode');
+        t.innerHTML = d === 'dark'
+          ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+          : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+      }
+
+      updateIcon();
+
+      t && t.addEventListener('click', () => {
+        d = d === 'dark' ? 'light' : 'dark';
+        r.setAttribute('data-theme', d);
+        updateIcon();
+      });
+    })();
+
+    // Scroll reveal
+    (function(){
+      const els = document.querySelectorAll('.reveal');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(el => observer.observe(el));
+    })();
+  </script>
+
+</body>
+</html>
